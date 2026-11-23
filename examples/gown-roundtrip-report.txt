@@ -1,0 +1,109 @@
+Roundtrip Doctor 1.0.0 -- Blender 4.2.3 LTS
+BEFORE: /tmp/roundtrip-gown/before.blend
+AFTER:  /tmp/roundtrip-gown/returned.blend
+
+[PASS] Blush
+    mesh: 42 verts | 80 edges | 40 faces | 120 loops
+    vertices/edges/faces/UVs: byte-identical
+    seams: 0 -> 0 (added 0, removed 0)
+    seams added:   none
+    seams removed: none
+[PASS] BodyBlackSuit
+    mesh: 558 verts | 1464 edges | 900 faces | 2700 loops
+    vertices/edges/faces/UVs: byte-identical
+    seams: 0 -> 0 (added 0, removed 0)
+    seams added:   none
+    seams removed: none
+[PASS] BodySkin
+    mesh: 667 verts | 1674 edges | 1020 faces | 3060 loops
+    vertices/edges/faces/UVs: byte-identical
+    seams: 0 -> 0 (added 0, removed 0)
+    seams added:   none
+    seams removed: none
+[PASS] EyeHighlights
+    mesh: 120 verts | 224 edges | 112 faces | 336 loops
+    vertices/edges/faces/UVs: byte-identical
+    seams: 0 -> 0 (added 0, removed 0)
+    seams added:   none
+    seams removed: none
+[PASS] Eyebrows
+    mesh: 218 verts | 466 edges | 252 faces | 756 loops
+    vertices/edges/faces/UVs: byte-identical
+    seams: 0 -> 0 (added 0, removed 0)
+    seams added:   none
+    seams removed: none
+[PASS] Eyes
+    mesh: 110 verts | 304 edges | 196 faces | 588 loops
+    vertices/edges/faces/UVs: byte-identical
+    seams: 0 -> 0 (added 0, removed 0)
+    seams added:   none
+    seams removed: none
+[PASS] Face
+    mesh: 1163 verts | 3100 edges | 1958 faces | 5874 loops
+    vertices/edges/faces/UVs: byte-identical
+    seams: 0 -> 0 (added 0, removed 0)
+    seams added:   none
+    seams removed: none
+[PASS] GenGown
+    mesh: 17716 verts | 52316 edges | 34561 faces | 103785 loops
+    vertices/edges/faces/UVs: byte-identical
+    seams: 0 -> 43 (added 43, removed 0)
+    seams added:   0, 432, 433, 435, 436, 437, 438, 9197, 9237, 9238, 9239, 9244, 9310, 9314, 12567, 12568, 12571, 18034, 18039, 18092, ... (43 total)
+    seams removed: none
+[PASS] GenHat
+    mesh: 539 verts | 1529 edges | 991 faces | 2973 loops
+    vertices/edges/faces/UVs: byte-identical
+    seams: 0 -> 0 (added 0, removed 0)
+    seams added:   none
+    seams removed: none
+[PASS] Hair
+    mesh: 1711 verts | 3658 edges | 1949 faces | 5847 loops
+    vertices/edges/faces/UVs: byte-identical
+    seams: 0 -> 0 (added 0, removed 0)
+    seams added:   none
+    seams removed: none
+[PASS] HairBack
+    mesh: 93 verts | 230 edges | 138 faces | 414 loops
+    vertices/edges/faces/UVs: byte-identical
+    seams: 0 -> 0 (added 0, removed 0)
+    seams added:   none
+    seams removed: none
+[PASS] LegsSkin
+    mesh: 1098 verts | 3006 edges | 1912 faces | 5736 loops
+    vertices/edges/faces/UVs: byte-identical
+    seams: 0 -> 0 (added 0, removed 0)
+    seams added:   none
+    seams removed: none
+[PASS] NoseDot
+    mesh: 9 verts | 16 edges | 8 faces | 24 loops
+    vertices/edges/faces/UVs: byte-identical
+    seams: 0 -> 0 (added 0, removed 0)
+    seams added:   none
+    seams removed: none
+[PASS] WitchEarringStud
+    mesh: 6 verts | 12 edges | 8 faces | 24 loops
+    vertices/edges/faces/UVs: byte-identical
+    seams: 0 -> 0 (added 0, removed 0)
+    seams added:   none
+    seams removed: none
+[PASS] WitchEarringStud.001
+    mesh: 6 verts | 12 edges | 8 faces | 24 loops
+    vertices/edges/faces/UVs: byte-identical
+    seams: 0 -> 0 (added 0, removed 0)
+    seams added:   none
+    seams removed: none
+[PASS] XmasBow
+    mesh: 768 verts | 1556 edges | 800 faces | 3112 loops
+    vertices/edges/faces/UVs: byte-identical
+    seams: 0 -> 0 (added 0, removed 0)
+    seams added:   none
+    seams removed: none
+[PASS] XmasFurCollar
+    mesh: 168 verts | 308 edges | 140 faces | 560 loops
+    vertices/edges/faces/UVs: byte-identical
+    seams: 0 -> 0 (added 0, removed 0)
+    seams added:   none
+    seams removed: none
+
+VERDICT: PASS
+Only seam flags changed. The sidecar trip is clean.
